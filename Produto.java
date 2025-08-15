@@ -1,16 +1,35 @@
 public class Produto {
 
     // Atributos
-    public String nome;
+    private String nome;
     public double preco;
     public int estoque;
     public String marca;
 
-    // Método mostrar informações do Produto
+    // Método de mostrar informações do produto
     public void mostrarInformacoes() {
         System.out.println("Nome: " + nome);
         System.out.println("Preço: " + preco);
         System.out.println("Estoque: " + estoque);
+    }
+
+    // get
+    public String getNome(){
+        return nome;
+    }
+
+    // set
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+
+    // Método construtor
+    public Produto(String nome, double preco, String marca, int estoque ){
+        this.nome = nome;
+        this.preco = preco;
+        this.marca = marca;
+        this.estoque = estoque;
     }
 
     // Método para adicionar itens ao estoque

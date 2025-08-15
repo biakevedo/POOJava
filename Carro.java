@@ -18,7 +18,14 @@ public class Carro {
         System.out.println("Combustível: " + combustivel);
     }
 
+    // Método construtor
+    public Carro(String marca, String modelo, int ano, String descricao, String combustivel) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+        this.descricao = descricao;
+        this.combustivel = combustivel;
 
 
-
+    }
 }
