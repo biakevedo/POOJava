@@ -3,7 +3,7 @@ public class Produto {
     // Atributos
     private String nome;
     public double preco;
-    public int estoque;
+    private int estoque;
     public String marca;
 
     // Método de mostrar informações do produto
@@ -16,11 +16,20 @@ public class Produto {
     // get
     public String getNome(){
         return nome;
+
+    }
+    public double getPreco(){
+        return preco;
     }
 
     // set
     public void setNome(String nome) {
         this.nome = nome;
+
+    }
+
+    public void setPreco(){
+        this.preco = preco;
     }
 
 
@@ -52,5 +61,9 @@ public class Produto {
         }
     }
 }
+
+
+
+
 
 

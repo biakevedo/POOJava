@@ -7,6 +7,7 @@ public class Main {
         prod1.preco = 850.00;
         prod1.marca = "Dell";
 
+
         prod1.mostrarInformacoes();
 
         Produto prod2 = new Produto("Notebook", 5000, "Dell", 50);
@@ -69,7 +70,7 @@ public class Main {
         Produto prod3 = new Produto("Camiseta", 30, "Hurley", 10);
         prod3.setNome("Camiseta");
         prod3.preco = 30.00;
-        prod3.estoque = 10;
+
 
         prod3.mostrarInformacoes();
         prod3.adicionarEstoque(5);
