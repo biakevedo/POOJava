@@ -12,8 +12,6 @@ Abstração
 
 O objetivo é desenvolver programas modulares, reutilizáveis e de fácil manutenção, aplicando os conceitos de POO em pequenos projetos e exemplos didáticos.
 
-🧩 Conteúdo dos exercícios
-
 Encapsulamento: Criação de atributos privados e uso de getters e setters
 
 Herança: Criação de classes base e subclasses para reaproveitar código
